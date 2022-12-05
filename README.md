@@ -4,9 +4,6 @@
 
 ### Author: Walaa' Atiyh
 
-### db-sqlite relation database
-  <img src="./static/db-sqlite.png" alt="drawing" style="width:500px;"/>
-
 #### How to initialize/run your application (where applicable)
 1. **Create the venv and activate it.**
 
@@ -39,4 +36,4 @@
 **To run the tests**
     `python manage.py test`
     
-## [pull request](https://github.com/WalaaAtiah/django-models/pull/4)
+## [pull request](https://github.com/WalaaAtiah/snacks_crud/pull/1)
