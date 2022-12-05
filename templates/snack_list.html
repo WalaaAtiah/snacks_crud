@@ -1,0 +1,36 @@
+{% extends 'base.html'%}
+{%block content%}
+
+
+<div class="row">
+  <div class="column1">
+    <h1>Snack List</h1>
+    <p>You can find many types of snacks !!</p>
+    <div class="c">
+      <button class="add"><a href="{% url 'Snack_Create' %}">Add Snack</a></button>
+      <table>
+          <tr>
+            <th>Snacks Name</th>
+            
+            
+          </tr>
+        
+      {%for snack in Allsnack%}
+          <tr>
+              <td>
+              <div class="b">
+                {{snack.title}}</div>
+              <a class="adetail" href="{% url 'Snack_Detail' snack.id %}">Details</a>
+              <a class="adetail" href="{% url 'Snack_Update' snack.id %}">Update</a>
+              <a class="adetail" href="{% url 'Snack_Delete' snack.id %}">Delete</a>
+           
+            </td>
+          </tr>
+      {%endfor%}
+      </table>
+      </div>
+    
+  </div>
+  
+</div>
+{%endblock content%}
