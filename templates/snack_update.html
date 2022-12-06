@@ -1,9 +1,11 @@
 {% extends 'base.html' %}
 {% block content%}
-<h1>Update {{snack.title}} </h1>
+<div class="card " id="details">
+<h1 class="update_h1">Update {{snack.title}} </h1>
   <form   method='post'>   
     {% csrf_token %}      
     {{form.as_p}}        
     <input type='submit' />
-  </form>   
+  </form>  
+</div> 
   {% endblock content%}

@@ -132,6 +132,7 @@
 .card {
   /* Add shadows to create the "card" effect */
   position: absolute;
+  text-align: center;
   transition: 0.3s;
   width: 400px;
   height: 700px;
@@ -140,6 +141,7 @@
   left: 40%;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   border-radius: 5px; /* 5px rounded corners */
+  
   
 }
 
@@ -173,7 +175,18 @@
   cursor: pointer;
   margin: 5px;
 }
+.y{
+  width: 200px;
+  height: 25px;
+
+}
 ._button a{
   color: #070707;
   text-shadow:.5px .5px .5px #7b38d8;
 }
+
+.update_h1{
+  margin: 10px;
+  text-align: center;
+}
+
