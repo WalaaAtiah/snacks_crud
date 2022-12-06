@@ -36,4 +36,4 @@
 **To run the tests**
     `python manage.py test`
     
-## [pull request](https://github.com/WalaaAtiah/snacks_crud/pull/1)
+## [pull request](https://github.com/WalaaAtiah/snacks_crud/pull/2)
