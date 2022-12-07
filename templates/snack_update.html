@@ -1,11 +1,12 @@
 {% extends 'base.html' %}
 {% block content%}
-<div class="card " id="details">
+<div class="addcard" >
+  <button class="x"><a href="{% url 'Snack_List' %}">X</a></button>
 <h1 class="update_h1">Update {{snack.title}} </h1>
-  <form   method='post'>   
+  <form  class="form" method='post'>   
     {% csrf_token %}      
     {{form.as_p}}        
-    <input type='submit' />
+    <input type='submit' class="addbutton" value="Update" />
   </form>  
 </div> 
   {% endblock content%}
