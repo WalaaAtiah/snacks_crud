@@ -1,12 +1,12 @@
 {% extends 'base.html' %}
 {% block content%}
-<div class="card" >
-<h1>Are you sure you want to delete  {{snack.title}} ? </h1>
-  <form   method='post'>   
+<div class="deletecard" >
+<h1 style="margin-top: 30px;">Are you sure you want to delete  {{snack.title}} ? </h1>
+  <form   method='post' style="margin-top: 30px;">   
     {% csrf_token %}      
     {{form.as_p}}        
-    <input class="_button" type='submit' value="yes"  style="color:black ; ; "/>
-    <button class="_button"><a href="{% url 'Snack_List' %}">No</a></button>
+    <input type='submit' value="Yes" class="button2"/>
+    <button class="button2"><a href="{% url 'Snack_List' %}">No</a></button>
   </form>   
 </div>
 {% endblock content%}

@@ -3,6 +3,15 @@
 ## Project: snacks_crud
 
 ### Author: Walaa' Atiyh
+### object:
+
+**The goal of this application is to collect information about the favorite snacks of the users of the application so that the user can add, update and delete snacks as I have developed a full stack application**
+
+### project picture
+<img src="./static/image1.png" alt="drawing" style="width:500px;"/>
+<img src="./static/image2.png" alt="drawing" style="width:500px;"/>
+<img src="./static/image3.png" alt="drawing" style="width:500px;"/>
+<img src="./static/image4.png" alt="drawing" style="width:500px;"/>
 
 #### How to initialize/run your application (where applicable)
 1. **Create the venv and activate it.**
